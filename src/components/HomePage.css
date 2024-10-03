@@ -1,0 +1,49 @@
+/* src/components/HomePage.css */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #272a43;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .home-image {
+    width: 300px;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+  
+  .home-title {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .home-description {
+    font-size: 1.2rem;
+    color: gray;
+    margin-bottom: 40px;
+    max-width: 600px;
+  }
+  
+  .start-button {
+    padding: 13px 70px;
+    font-size: 1.1rem;
+    color: #fff;
+    background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(150, 86, 181, 1) 0%,
+    rgba(0, 212, 255, 1) 100% );
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
